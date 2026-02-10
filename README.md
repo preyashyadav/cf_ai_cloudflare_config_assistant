@@ -2,6 +2,8 @@
 
 A production-ready Cloudflare configuration copilot that turns goals into safe, actionable plans. It combines chat + voice input, retrieval-augmented generation, and Durable Objects for stateful planning.
 
+<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/ebfc0bfe-3ccf-4837-88ef-c5e715455143" />
+
 ## Live Demo
 https://cf_ai_config_assistant.preyashyadav.workers.dev/
 
@@ -160,11 +162,6 @@ Durable Object (via `/api/*`):
 - `POST /api/ingest-seed`
 - `GET /api/diag`
 - `GET /api/ping`
-
----
-
-## Screenshots
-- TODO: ADD SS
 
 ---
 
