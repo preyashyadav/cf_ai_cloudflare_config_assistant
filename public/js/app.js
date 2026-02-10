@@ -413,7 +413,7 @@ $("btnLogout").onclick = async () => {
 // Boot
 (async () => {
   state.voiceSupported = !!SpeechRecognition;
-  $("subline").textContent = state.voiceSupported ? "Chat UI · RAG · Voice input" : "Chat UI · RAG";
+  $("subline").textContent = state.voiceSupported ? "" : "";
   setBusy(false);
   await ensureIcons();
   refreshIcons();

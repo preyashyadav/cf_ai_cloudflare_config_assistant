@@ -3,7 +3,7 @@
 A production-ready Cloudflare configuration copilot that turns goals into safe, actionable plans. It combines chat + voice input, retrieval-augmented generation, and Durable Objects for stateful planning.
 
 ## Live Demo
-https://cf-ai-config-assistant.preyashyadav.workers.dev
+https://cf_ai_config_assistant.preyashyadav.workers.dev/
 
 ## Video Demo
 - TODO: Add YouTube walk through video link
