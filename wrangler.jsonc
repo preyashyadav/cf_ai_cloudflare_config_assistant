@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "cf-ai-config-assistant",
+  "name": "cf_ai_config_assistant",
   "account_id": "ce6201458a83d23e7b82f037fae4d670",
   "main": "src/index.ts",
   "compatibility_date": "2026-02-05",
@@ -31,7 +31,7 @@
   "migrations": [
     {
       "tag": "v2",
-      "new_classes": ["ConfigAssistantDO"]
+      "new_sqlite_classes": ["ConfigAssistantDO"]
     }
   ],
 
