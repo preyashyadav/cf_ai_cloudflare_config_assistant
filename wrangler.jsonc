@@ -1,0 +1,49 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cf-ai-config-assistant",
+  "account_id": "ce6201458a83d23e7b82f037fae4d670",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-02-05",
+  "compatibility_flags": ["nodejs_compat"],
+
+  "ai": {
+    "binding": "AI",
+    "remote": true
+  },
+
+  "vectorize": [
+    {
+      "binding": "CF_DOCS",
+      "index_name": "cf-config-docs",
+	  "remote": true
+    }
+  ],
+
+  "durable_objects": {
+    "bindings": [
+      {
+        "class_name": "ConfigAssistantDO",
+        "name": "MY_DURABLE_OBJECT"
+      }
+    ]
+  },
+
+  "migrations": [
+    {
+      "tag": "v2",
+      "new_classes": ["ConfigAssistantDO"]
+    }
+  ],
+
+  "assets": {
+    "directory": "./public",
+	"binding": "ASSETS"
+  },
+
+  "observability": {
+    "enabled": true
+  },
+    "triggers": {
+    "crons": ["0 16 * * *"]
+  }
+}
