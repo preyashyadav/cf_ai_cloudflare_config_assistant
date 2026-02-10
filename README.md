@@ -6,7 +6,7 @@ A production-ready Cloudflare configuration copilot that turns goals into safe, 
 https://cf_ai_config_assistant.preyashyadav.workers.dev/
 
 ## Video Demo
-- TODO: Add YouTube walk through video link
+https://youtu.be/IjVhEM3NL_c
 
 ---
 
